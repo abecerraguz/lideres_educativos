@@ -1,0 +1,141 @@
+#demos .owl-carousel {
+    background:#fff;
+    height:auto;
+    padding:0px 0px 0px 0px;
+}
+
+#demos .owl-carousel .item {
+    margin-top: 5px;
+    background: #fff none repeat scroll 0 0;
+    height:auto;
+    padding:0px;
+
+}
+#demos .owl-carousel .item{
+	transition: .8s;
+	-webkit-transition: .8s;
+	transform: translateX(0);
+	-webkit-transform: translateX(0);
+	opacity: 1;
+}
+#demos .owl-carousel .item.__loading{
+	opacity: 0;
+	transform: translateX(40px);
+	-webkit-transform: translateX(40px);
+}
+#demos .owl-carousel .item h4{
+	margin: 0 0 10px 0;
+}
+.btn-filter-wrap{
+	margin-bottom: 10px;
+    text-align: center;
+}
+/*
+.btn-filter-wrap .btn-filter{
+	color: #fff;
+	border: 1px solid transparent;
+	background:#f34e45;
+	padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+	margin-left:5px;
+	margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+    
+}
+
+.btn-filter-wrap .btn-filter{
+	color: #fff;
+	border: 1px solid transparent;
+	background:#f34e45;
+	padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+	margin-left:5px;
+	margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+*/
+
+.btn-filter-wrap .btn-filter{
+    
+    
+	color: #fff;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+	border-bottom:1px solid grey;
+	background:#d4cccb;
+	padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    color: #fff;
+	margin:0px;
+    transition: all 0.3s ease-in-out;
+    width:100%;
+    
+}
+
+.btn-filter-wrap .btn-filter:last-child{
+	color: #fff;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+	border-bottom:none;
+	background:#d4cccb;
+	padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    color: #fff;
+	margin:0px;
+    transition: all 0.3s ease-in-out;
+    width:100%;
+    
+}
+
+.btn-filter-wrap .btn-filter:hover{
+	color: #fff;
+    border-top: none;
+    border-right:none;
+    border-left:none;
+	border-bottom:1px solid grey;
+	background:#8b8b8b;
+	padding: 10px 0px 10px 0px;
+    font-size: 14px;
+    color: #fff;
+	margin:0px;
+    transition: all 0.3s ease-in-out;
+    width:100%;
+    
+}
+
+/*
+.btn-filter-wrap .btn-filter{
+	color: #fff;
+	border: 1px solid transparent;
+	background:#f34e45;
+	padding: 10px 20px;
+    font-size: 14px;
+    color: #fff;
+	margin-left:5px;
+	margin-bottom: 10px;
+    transition: all 0.3s ease-in-out;
+}
+*/
+
+.btn-filter.btn-active{
+	background:#00bcd4;
+	color: #FFF;
+}
+
+.site-title{
+	margin-bottom: 40px;
+}
+.__doc{
+	margin-top: 50px;
+}
+footer{
+	margin-top: 140px;
+	background: #333;
+	color: #FFF;
+	padding: 10px 0;
+	text-align: center;
+}
